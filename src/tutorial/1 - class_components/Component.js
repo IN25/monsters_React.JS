@@ -6,6 +6,7 @@ import "../../App.css";
 //by using class, we get access to state
 //state is some object with properties that we can access inside our class
 class App extends Component {
+  //by saying App extends Component we make so that our App component can use methods of the Component(render, lifecycle methods, states etc.)
   constructor() {
     super(); //calls the constructor method
 
